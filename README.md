@@ -19,8 +19,10 @@ And that's all, you don't need to worry for anything else, icons will resize acc
 
 Or even make them all one color
 
-```
+```css
 .one-color-social-icons .social-icon {
     background-color: #091c30;
 }
 ```
+
+[Full list of examples](http://htmlpreview.github.io/?https://github.com/gaastonsr/social-icons/blob/master/example/index.html).

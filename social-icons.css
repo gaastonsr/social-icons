@@ -32,7 +32,7 @@
 }
 
 .social-icon--facebook::after {
-    background-image: url('./icons/facebook.svg');
+    background-image: url('icons/facebook.svg');
 }
 
 .social-icon--twitter {
@@ -40,7 +40,7 @@
 }
 
 .social-icon--twitter::after {
-    background-image: url('./icons/twitter.svg');
+    background-image: url('icons/twitter.svg');
 }
 
 .social-icon--youtube {
@@ -48,7 +48,7 @@
 }
 
 .social-icon--youtube::after {
-    background-image: url('./icons/youtube.svg');
+    background-image: url('icons/youtube.svg');
 }
 
 .social-icon--instagram {
@@ -56,7 +56,7 @@
 }
 
 .social-icon--instagram::after {
-    background-image: url('./icons/instagram.svg');
+    background-image: url('icons/instagram.svg');
 }
 
 .social-icon--linkedin {
@@ -64,7 +64,7 @@
 }
 
 .social-icon--linkedin::after {
-    background-image: url('./icons/linkedin.svg');
+    background-image: url('icons/linkedin.svg');
 }
 
 .social-icon--tumblr {
@@ -72,5 +72,5 @@
 }
 
 .social-icon--tumblr::after {
-    background-image: url('./icons/tumblr.svg');
+    background-image: url('icons/tumblr.svg');
 }

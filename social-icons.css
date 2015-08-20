@@ -1,0 +1,76 @@
+.social-icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.social-icon::after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 50%;
+    padding-bottom: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.social-icon--facebook {
+    background-color: #517abf;
+}
+
+.social-icon--facebook::after {
+    background-image: url('./icons/facebook.svg');
+}
+
+.social-icon--twitter {
+    background-color: #00c0fb;
+}
+
+.social-icon--twitter::after {
+    background-image: url('./icons/twitter.svg');
+}
+
+.social-icon--youtube {
+    background-color: #d01917;
+}
+
+.social-icon--youtube::after {
+    background-image: url('./icons/youtube.svg');
+}
+
+.social-icon--instagram {
+    background-color: #2d80a9;
+}
+
+.social-icon--instagram::after {
+    background-image: url('./icons/instagram.svg');
+}
+
+.social-icon--linkedin {
+    background-color: #0976b4;
+}
+
+.social-icon--linkedin::after {
+    background-image: url('./icons/linkedin.svg');
+}
+
+.social-icon--tumblr {
+    background-color: #548096;
+}
+
+.social-icon--tumblr::after {
+    background-image: url('./icons/tumblr.svg');
+}

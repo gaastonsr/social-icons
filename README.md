@@ -1,28 +1,40 @@
 # Responsive Social Icons
 
-By default they will render 40x40px each but you can easily override it with a super class. For example:
+Responsive social icons are flexible, resolution independent social icons ready to use. They are supported by almost all browsers, and can be customized to match your needs easily.
 
-```css
-.big-social-icons .social-icon {
-    width: 120px;
-    height: 120px;
-}
+![Default Icons](http://i.imgur.com/Xn55Kab.png)
+
+## How to use them
+
+Add [social-icons.css](https://github.com/gaastonsr/social-icons/blob/master/social-icons.css) and the [icons folder](https://github.com/gaastonsr/social-icons/tree/master/icons) to your website and make sure they are referenced correctly from social-icons.css, update if needed and then add the classes `.social-icon` to the elements you want to convert on a social icon.
+
+Last step is to add a class modifier to indicate wich social network the icon is.
+
+```html
+<a href="#" target="_blank" class="social-icon social-icon--facebook"></a>
 ```
+And that's all.
 
-And that's all, you don't need to worry for anything else, icons will resize accordingly. You can also make it square looking instead of the circle looking default:
+View the [full list of examples](https://rawgit.com/gaastonsr/social-icons/master/example/index.html).
 
-```css
-.square-social-icons .social-icon {
-    border-radius: 10%;
-}
-```
+### Social Networks Supported
 
-Or even make them all one color
+* Facebook (`.social-icon--facebook`)
+* Twitter (`.social-icon--twitter`)
+* Youtube (`.social-icon--youtube`)
+* Instagram (`.social-icon--instagram`)
+* Linkedin (`.social-icon--linkedin`)
+* Tumblr (`.social-icon--tumblr`)
 
-```css
-.one-color-social-icons .social-icon {
-    background-color: #091c30;
-}
-```
+## Browser support
 
-[Full list of examples](http://htmlpreview.github.io/?https://github.com/gaastonsr/social-icons/blob/master/example/index.html).
+[Any browser that supports SVG](http://caniuse.com/#search=svg), that is almost all.
+
+* IE9+
+* Firefox 38+
+* Chrome 31+
+* Safari 7.1+
+* Opera 30+
+* iOS Safari 7.1+
+* Android Broswer 4.4+
+* Chrome for Android 42+

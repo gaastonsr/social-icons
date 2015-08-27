@@ -9,13 +9,17 @@ body {
 }
 
 pre {
-    display: inline-block;
+    display: block;
     background-color: #fdf6e4;
-    padding: 15px 20px;
+    padding: 15px 10px;
     font-size: 16px;
     line-height: 1.4;
     font-weight: bold;
     color: #586e74;
+    border-radius: 5px;
+    max-width: 100%;
+    overflow: auto;
+    border-color: #eee8d6;
 }
 
 .example {
@@ -34,7 +38,7 @@ pre {
  */
 .social-icons-list {
     list-style-type: none;
-    margin: 0 0 18px;
+    margin: 0;
     padding: 0;
     font-size: 0;
 }
@@ -42,6 +46,7 @@ pre {
 .social-icons-list li {
     display: inline-block;
     margin-right: 15px;
+    margin-bottom: 15px;
 }
 
 .social-icons-list li:last-child {

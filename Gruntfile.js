@@ -31,12 +31,7 @@ module.exports = function(grunt) {
                     src: ['*.svg'],
                     dest: 'build'
                 }],
-                options: {
-                    datasvgcss: 'social-icons.data.svg.css',
-                    datapngcss: 'social-icons.data.png.css',
-                    urlpngcss: 'social-icons.fallback.css',
-                    cssprefix: '.social-icon--'
-                }
+                options: {}
             }
         }
     });

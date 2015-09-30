@@ -1,0 +1,28 @@
+{
+  "name": "social-icons",
+  "version": "0.1.0",
+  "description": "Responsive social icons for your website.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaastonsr/social-icons.git"
+  },
+  "author": "Gaston Sanchez",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/gaastonsr/social-icons/issues"
+  },
+  "homepage": "https://github.com/gaastonsr/social-icons#readme",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-grunticon": "^2.2.2",
+    "grunt-svgmin": "^2.0.1"
+  }
+}

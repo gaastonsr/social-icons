@@ -6,13 +6,14 @@ Responsive social icons are flexible, resolution independent social icons ready 
 
 ## How to use them
 
-Add [social-icons.css](https://github.com/gaastonsr/social-icons/blob/master/social-icons.css) and the [icons folder](https://github.com/gaastonsr/social-icons/tree/master/icons) to your website and make sure they are referenced correctly from social-icons.css, update if needed and then add the classes `.social-icon` to the elements you want to convert on a social icon.
+Add [social-icons.css](https://github.com/gaastonsr/social-icons/blob/master/social-icons.css) and add the classes `.social-icon` to the elements you want to convert on a social icon.
 
 Last step is to add a class modifier to indicate wich social network the icon is.
 
 ```html
 <a href="#" target="_blank" class="social-icon social-icon--facebook"></a>
 ```
+
 And that's all.
 
 View the [full list of examples](https://rawgit.com/gaastonsr/social-icons/master/example/index.html).

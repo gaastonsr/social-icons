@@ -2,7 +2,7 @@
 
 Responsive social icons are flexible, resolution independent social icons ready to use. They are supported by almost all browsers, and can be customized to match your needs easily.
 
-![Default Icons](http://i.imgur.com/QYm8zKG.png)
+![Default Icons](http://i.imgur.com/9RSRCTE.png)
 
 ## How to use them
 

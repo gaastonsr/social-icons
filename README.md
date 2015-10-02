@@ -2,7 +2,7 @@
 
 Responsive social icons are flexible, resolution independent social icons ready to use. They are supported by almost all browsers, and can be customized to match your needs easily.
 
-![Default Icons](http://i.imgur.com/Xn55Kab.png)
+![Default Icons](http://i.imgur.com/QYm8zKG.png)
 
 ## How to use them
 
@@ -26,6 +26,7 @@ View the [full list of examples](https://rawgit.com/gaastonsr/social-icons/maste
 * Instagram (`.social-icon--instagram`)
 * Linkedin (`.social-icon--linkedin`)
 * Tumblr (`.social-icon--tumblr`)
+* Email (`.social-icon--email`)
 
 ## Browser support
 
